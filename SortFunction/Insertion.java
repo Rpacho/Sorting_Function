@@ -2,7 +2,7 @@
 // This is another sorting function
 /*
  *Author: Rolando Pacho
- *Param
+ *Param: array list
  *
  *
  */
