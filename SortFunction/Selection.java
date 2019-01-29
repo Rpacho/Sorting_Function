@@ -15,6 +15,10 @@ public class Selection
         int temp;
 
 
+        // [4][5][2][7][1][2][8][10][9]
+         //                       ^ it will stop here since all of them is sorted and
+        //                          obviously the last one is the largest thats why
+        //                          I put (array.length -1) negative one in there.
         for (int i = 0; i < array.length - 1; i++)
         {
             smallIndex = i;
@@ -26,7 +30,6 @@ public class Selection
                     smallIndex = j;
 
                 }
-            //System.out.print(smallIndex + " ");
             }
             temp = array[i];
             array[i] = array[smallIndex];
